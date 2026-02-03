@@ -62,4 +62,4 @@ Conference URLs and scraper types are managed in `config/conferences.json`. You 
 - `scanner.py`: Core logic for running scrapers and updating the database.
 
 ## License
-MIT (or choose your preferred license)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
