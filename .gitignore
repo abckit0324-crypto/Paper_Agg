@@ -1,6 +1,9 @@
-# Database
-database/*.db
+# Database files (but keep Python modules!)
 *.db
+*.db-journal
+*.db-shm
+*.db-wal
+
 
 # Environment and Cache
 __pycache__/

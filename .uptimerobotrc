@@ -1,0 +1,39 @@
+# UptimeRobot Configuration Guide
+# This file contains instructions for keeping your Render deployment always-on
+
+## Step-by-Step Setup (5 minutes):
+
+1. Sign up at: https://uptimerobot.com/ (FREE)
+
+2. Click "Add New Monitor"
+
+3. Configure:
+   - Monitor Type: HTTP(s)
+   - Friendly Name: Paper Aggregator Demo
+   - URL: https://your-app-name.onrender.com/
+   - Monitoring Interval: 5 minutes
+   
+4. Click "Create Monitor"
+
+5. Done! Your app will now stay warm 24/7
+
+## How it works:
+- UptimeRobot pings your app every 5 minutes
+- This prevents Render from spinning down (which happens after 15 min inactivity)
+- Your app responds instantly to all requests
+- Completely free (UptimeRobot free tier: 50 monitors, 5-min intervals)
+
+## Alternative: Use a cron job
+If you have a server or local machine that's always on:
+
+```bash
+# Add to crontab (runs every 10 minutes)
+*/10 * * * * curl -s https://your-app-name.onrender.com/ > /dev/null
+```
+
+## Monitoring Dashboard:
+UptimeRobot provides:
+- Uptime percentage
+- Response time graphs
+- Email alerts if your app goes down
+- Public status pages (optional)
