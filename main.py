@@ -8,6 +8,7 @@ from scanner import Scanner
 from starlette.requests import Request
 from typing import Optional, List
 from fastapi import Query
+import json
 
 app = FastAPI(title="Paper Aggregator")
 
@@ -108,6 +109,15 @@ async def read_root(
     all_confs = db.query(Paper.conference).distinct().all()
     all_confs = [c[0] for c in all_confs if c[0]]
     
+    # Load all configured conferences from conferences.json for the update modal
+    configured_confs = []
+    try:
+        with open("config/conferences.json", "r") as f:
+            conf_config = json.load(f)
+            configured_confs = sorted(conf_config.keys())
+    except Exception:
+        pass  # If loading fails, just use empty list
+    
     return templates.TemplateResponse("index.html", {
         "request": request, 
         "papers": papers, 
@@ -117,6 +127,7 @@ async def read_root(
         "total_pages": total_pages,
         "query": q,
         "all_confs": sorted(all_confs),
+        "configured_confs": configured_confs,
         "selected_confs": conferences or [],
         "min_year": min_year,
         "max_year": max_year
